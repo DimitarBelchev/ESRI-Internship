@@ -4,10 +4,8 @@ import {
   TileLayer,
   ZoomControl,
 } from "react-leaflet";
-import L from "leaflet";
-import { toast } from "react-toastify";
 
-import "leaflet/dist/leaflet.css";
+import { toast } from "react-toastify";
 
 import MapClickHandler from "./MapClickHandler";
 import MarkerWithPopup from "./MarkerWithPopup";
