@@ -1,8 +1,15 @@
-# React + Vite
+To Install:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Open the folder in terminal and input the following commands:
 
-Currently, two official plugins are available:
+1. npm i
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. npm run dev
+
+You can also view the project in GitHub:
+
+https://github.com/DimitarBelchev/ESRI-Internship
+
+Or open a deployed version of the site:
+
+https://esri-map-search-app.netlify.app/
