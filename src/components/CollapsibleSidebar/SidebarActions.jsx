@@ -1,7 +1,7 @@
 import { FaGlobeAmericas, FaTrash } from "react-icons/fa";
 import { toast } from "react-toastify";
-import Button from "../Button";
 import { useMapMode } from "../../hooks/useMapMode";
+import Button from "../Button";
 
 export default function SidebarActions() {
   const [mapMode, toggleMapMode] = useMapMode();

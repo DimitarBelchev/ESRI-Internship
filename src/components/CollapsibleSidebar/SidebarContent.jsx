@@ -1,6 +1,6 @@
-import SearchBar from "../SearchBar";
-import RecentSearchesList from "../RecentSearchesList";
 import FavoritesList from "../FavoritesList";
+import RecentSearchesList from "../RecentSearchesList";
+import SearchBar from "../SearchBar";
 
 export default function SidebarContent({ onCloseSidebar }) {
   return (

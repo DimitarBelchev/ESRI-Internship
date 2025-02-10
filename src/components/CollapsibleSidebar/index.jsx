@@ -1,9 +1,9 @@
 import { Transition } from "@headlessui/react";
 import { MdMenu } from "react-icons/md";
 import Button from "../Button";
-import SidebarHeader from "./SidebarHeader";
 import SidebarActions from "./SidebarActions";
 import SidebarContent from "./SidebarContent";
+import SidebarHeader from "./SidebarHeader";
 
 export default function CollapsibleSidebar({ open, onToggle, onCloseSidebar }) {
   return (
