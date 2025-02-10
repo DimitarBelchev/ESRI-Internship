@@ -1,19 +1,19 @@
+import L from "leaflet";
 import { useEffect, useState } from "react";
 import {
   MapContainer as ReactLeafletMap,
   TileLayer,
   ZoomControl,
 } from "react-leaflet";
-import L from "leaflet";
 import { toast } from "react-toastify";
 
+import MapCenterer from "./MapCenterer";
 import MapClickHandler from "./MapClickHandler";
 import MarkerWithPopup from "./MarkerWithPopup";
-import MapCenterer from "./MapCenterer";
 
 import { useMapMode } from "../../hooks/useMapMode";
-import { reverseGeocode } from "../../utils/geocoding";
 import { copyToClipboard } from "../../utils/clipboard";
+import { reverseGeocode } from "../../utils/geocoding";
 import {
   getLocalStorageItem,
   setLocalStorageItem,

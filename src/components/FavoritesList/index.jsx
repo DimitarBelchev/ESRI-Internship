@@ -1,8 +1,8 @@
+import { FaHeart, FaTrash } from "react-icons/fa";
 import { useFavorites } from "../../hooks/useFavorites";
 import { handleClickAddress } from "../../utils/mapNavigation";
 import AddressListItem from "../AddressListItem";
 import Button from "../Button";
-import { FaTrash, FaHeart } from "react-icons/fa";
 
 export default function FavoritesList() {
   const { favorites, removeFavorite, clearFavorites } = useFavorites();

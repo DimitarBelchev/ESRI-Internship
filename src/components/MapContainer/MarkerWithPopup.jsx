@@ -1,7 +1,7 @@
-import { Marker, Popup } from "react-leaflet";
-import Button from "../Button";
 import { FaCopy, FaRegHeart } from "react-icons/fa";
+import { Marker, Popup } from "react-leaflet";
 import { getLocalStorageItem } from "../../utils/localStorageHelper";
+import Button from "../Button";
 
 export default function MarkerWithPopup({
   markerData,

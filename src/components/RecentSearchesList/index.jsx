@@ -1,13 +1,13 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { FaHeart, FaRegHeart, FaTrash } from "react-icons/fa";
 
+import { useFavorites } from "../../hooks/useFavorites";
 import AddressListItem from "../AddressListItem";
 import Button from "../Button";
-import { useFavorites } from "../../hooks/useFavorites";
 
 import {
-  setLocalStorageItem,
   getLocalStorageItem,
+  setLocalStorageItem,
 } from "../../utils/localStorageHelper";
 import { handleClickAddress } from "../../utils/mapNavigation";
 
