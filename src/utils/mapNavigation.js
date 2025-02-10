@@ -1,5 +1,5 @@
-import { geocodeAddress } from "./geocoding";
 import { toast } from "react-toastify";
+import { geocodeAddress } from "./geocoding";
 
 export async function handleClickAddress(address) {
   try {

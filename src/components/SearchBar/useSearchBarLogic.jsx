@@ -1,11 +1,11 @@
-import { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import { debounce } from "lodash";
+import { useEffect, useRef, useState } from "react";
 import { toast } from "react-toastify";
-import { SUGGEST_URL, FIND_URL } from "../../constants/apiUrls";
+import { FIND_URL, SUGGEST_URL } from "../../constants/apiUrls";
 import {
-  setLocalStorageItem,
   getLocalStorageItem,
+  setLocalStorageItem,
 } from "../../utils/localStorageHelper";
 
 export default function useSearchBarLogic(onCloseSidebar) {
