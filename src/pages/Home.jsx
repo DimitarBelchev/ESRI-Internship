@@ -1,4 +1,4 @@
-import { useState, useCallback } from "react";
+import { useCallback, useState } from "react";
 import CollapsibleSidebar from "../components/CollapsibleSidebar";
 import MapView from "../components/MapContainer";
 import useMediaQuery from "../hooks/useMediaQuery";
